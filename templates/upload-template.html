@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sketch2Html</title>
+</head>
+<body>
+<div align="center">
+    <h1>Upload Form Sketch to Generate Your Own Web Forms</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+
+</div>
+</body>
+</html>
