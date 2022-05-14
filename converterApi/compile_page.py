@@ -7,7 +7,7 @@ FILE = Path(__file__).resolve()
 PROJECT_ROOT = FILE.parents[1].resolve()  # sketch2html root directory
 
 
-def generate_form(labels_list):
+def compile_page(labels_list):
     create_result_template()
 
     file = open(Path(PROJECT_ROOT, 'templates', 'default.html'), "r")

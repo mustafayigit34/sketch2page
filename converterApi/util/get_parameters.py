@@ -28,5 +28,4 @@ def replace_class_type_with_name(l_list):
                 l_list[index][0] = 'radio'
             case '5':
                 l_list[index][0] = 'dropdown'
-
     return l_list
